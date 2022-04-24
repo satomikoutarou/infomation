@@ -1,0 +1,79 @@
+body{
+	background: url(images/background3.gif);
+	background-repeat: inherit;
+}
+table{
+	margin: 100px;
+	background: black;
+	color: white;
+	border-radius: 20px;
+	box-shadow: 0px 10px 20px 0px gray,0px 16px 24px 0px lightgray;
+
+}
+.AVT{
+	width: 250px;
+	height: 330px;
+	border-radius: 30px;
+	margin: 20px;
+	box-shadow: 0px 10px 20px 0px lightgray,0px 16px 24px 0px gray;
+	border: 1px solid black;
+}
+.columm1{
+	width: 400px;
+	padding: 10px;
+	
+}
+.columm2{
+	width: 600px;
+	margin: 10px;
+	padding: 10px;
+}
+.underline{
+
+	height: 4px;
+    background: linear-gradient(to left,#FF8000,#FF4000,#FF0000);
+    background-size: contain;
+    width: 120px;
+    background-repeat: no-repeat;
+
+	cursor: pointer;
+}
+.title{
+	cursor: pointer;
+	transition-duration: 0.2s;
+	transition-property: color, background-color;
+}
+.title:hover{
+	color: orangered;
+}
+.fa-brands{
+	font-size: 45px;
+	cursor: pointer;
+	transition-duration: 0.2s;
+	transition-property: color, background-color;
+}
+.fa-facebook-square:hover{
+	color: #4267b2;
+	box-shadow: 5px 5px 5px gray;
+	background: whitesmoke;
+	border-radius: 10px;
+}
+
+.fa-instagram:hover{
+	color: white;
+	box-shadow: 5px 5px 5px palevioletred;
+	background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+	background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+	border-radius: 10px;
+}
+.fa-twitter:hover{
+	color: #1DA1F2;
+	box-shadow: 5px 5px 5px skyblue;
+	background: white;
+}
+.fa-tiktok:hover{
+	box-shadow: 5px 5px 5px red;
+	background: white;
+	color: black;
+}
